@@ -1,0 +1,44 @@
+
+.hero-img-container {
+    position: relative;
+}
+
+.hero-img {
+    height: 600px;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.arrow {
+    position: absolute;
+    font-size: 3rem;
+    border: none;
+    background: none;
+}
+
+.btn-left, .btn-right {
+    top: 40%;
+    color: var(--font-color-md);
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-right {
+    right: 20px;
+    z-index: 10;
+}
+.btn-left{ 
+    left: 20px;
+    z-index: 10;
+}
+
+.slide {
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.active{
+    opacity: 1;
+    transition-duration: 1s;
+}

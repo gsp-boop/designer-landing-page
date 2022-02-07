@@ -1,0 +1,53 @@
+:root {
+    --font-thin: 100;
+    --font-light: 300;
+    --font-reg: 400;
+    --font-bold: 700;
+    
+    --font-color-lt: rgb(207, 207, 207);
+    --font-color-md: rgb(99, 99, 99);
+    --font-color-drk: rgb(37, 37, 37);
+    
+    --accent-color: rgb(250,250,210);
+    --bg-light: rgb(212,212,212, 0.6);
+    --bg-md: rgba(160, 160, 160, 0.904);
+    --bg-dark: rgb(94, 94, 94);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+li { 
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li button {
+    text-decoration: none;
+    color: var(--bg-dark);
+    border: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a { 
+    text-decoration: none;
+    color: var(--font-color-drk)
+}

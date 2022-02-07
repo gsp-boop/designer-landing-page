@@ -1,0 +1,10 @@
+.footer-section {
+    height: 80px;
+    background: var(--bg-light);
+    margin-top: 40px;
+}
+
+.footer-section p {
+    padding: 10px 15px;
+    text-align: center;
+}
